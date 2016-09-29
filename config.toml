@@ -1,4 +1,4 @@
-baseurl = "http://vektor.cloud/"
+baseurl = "http://vektor.cloud"
 languageCode = "en-us"
 title = "vektor.cloud"
 theme = "simple-hugo"
