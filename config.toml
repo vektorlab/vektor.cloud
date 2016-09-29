@@ -1,3 +1,9 @@
 baseurl = "http://vektor.cloud/"
 languageCode = "en-us"
-title = "Vektor Cloud"
+title = "vektor.cloud"
+theme = "simple-hugo"
+
+[params]
+  RegistryBase = "quay.io/vektorcloud"
+  URLBase = "https://quay.io/repository/vektorcloud"
+  GithubBase = "https://github.com/vektorcloud"
