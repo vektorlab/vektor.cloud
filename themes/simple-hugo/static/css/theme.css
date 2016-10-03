@@ -145,3 +145,12 @@ a:hover {
 .desc {
   font-size: .8em;
 }
+
+@media screen and (max-width: 767px) {
+  .cbox {
+    width: 300px;
+  }
+  .navbar-logo{
+    left: 40%;
+  }
+}
