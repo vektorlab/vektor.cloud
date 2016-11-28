@@ -1,0 +1,23 @@
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "navbar.html" . }}
+    <div class="container page-wrap">
+      <div class="post-content">
+        <div class="well">
+      <div class="tags">
+Complexity <span class="badge">{{.Params.complexity}}</span>
+Cost <span class="badge">{{.Params.price}}</span>
+Providers {{range .Params.providers}}<span class="badge">{{.}}</span>{{end}}
+<a class="ghlink" href="{{ .Site.Params.GithubBase }}/{{ .Title }}">
+  <i class="fa fa-fw fa-github"></i>
+</a>
+</div>
+        </div>
+        {{ .Content }}
+        {{ template "_internal/disqus.html" . }}
+      </div>
+    </div>
+    {{ partial "footer.html" . }}
+    {{ partial "script.html" . }}
+  </body>
+</html>

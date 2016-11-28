@@ -1,0 +1,19 @@
+<article class="post">
+    <!--<span class="post-meta">{{ .Date.Format "Jan 2, 2006" }}</span>-->
+    <div class="cbox">
+      <h2><a href="/stack/{{ .Title }}">{{ .Title }}</a></h2>
+      </br>
+      <div class="tags">
+        Complexity <span class="badge">{{.Params.complexity}}</span>
+        Cost <span class="badge">{{.Params.price}}</span>
+        <br>
+        Providers {{range .Params.providers}}<span class="badge">{{.}}</span>{{end}}
+
+      </div>
+      <span class="desc">{{.Params.tagline}}</span>
+        <a class="ghlink" href="{{ .Site.Params.GithubBase }}/{{ .Params.name }}">
+          <i class="fa fa-fw fa-github"></i>
+        </a>
+      <textarea class="linkbox" disabled="true">{{ .Site.Params.GithubOrg }}/{{ .Title }}:latest</textarea>
+    </div>
+</article>

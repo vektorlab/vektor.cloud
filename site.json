@@ -1,0 +1,12 @@
+{
+  "organization": "vektorcloud",
+  "stacks": [
+    {
+      "title": "simple-stack",
+      "tagLine": "The Simplest Stack: DigitalOcean+Docker",
+      "complexity": 1,
+      "price": 1,
+      "providers": ["do"]
+    }
+  ]
+}
