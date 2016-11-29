@@ -38,6 +38,7 @@ func (s *Stack) Write(cfg *Config) error {
 	if err != nil {
 		return err
 	}
+	os.Mkdir("./content/stack", 0755)
 	path := fmt.Sprintf("./content/stack/%s.md", s.Title)
 	fmt.Printf("Writing %s\n", path)
 	return ioutil.WriteFile(path, bytes.Join([][]byte{metadata, readme}, []byte("\n")), 0755)
