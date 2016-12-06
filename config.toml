@@ -8,3 +8,15 @@ theme = "simple-hugo"
   URLBase = "https://quay.io/repository/vektorcloud"
   GithubBase = "https://github.com/vektorcloud"
   GithubOrg = "vektorcloud"
+  Jumbotron_Title = "VektorCloud"
+  Jumbotron = """
+    Vektorcloud is a collection of high quality containers and tools for provisioning modern cloud infrastructure.
+  """
+  Section1_Title = "Ultra-lightweight High Performance Containers"
+  Section1 = """
+    Browse collections of ultra-lightweight high performance containers. 
+  """
+  Section2_Title = "Compositable Production Grade Infrastrcuture"
+  Section2 = """
+    Collections of highly refined software for deploying cloud-ready infrastructure.
+  """
