@@ -3,10 +3,122 @@
   "stacks": [
     {
       "title": "simple-stack",
-      "tagLine": "The Simplest Stack: DigitalOcean+Docker",
       "complexity": 1,
       "price": 1,
       "providers": ["do"]
+    }
+  ],
+  "images": [
+    {
+      "title": "airflow"
+    },
+    {
+      "title": "ansible"
+    },
+    {
+      "title": "apk-cache"
+    },   
+    {
+      "title": "apt-cacher"
+    },   
+    {
+      "title": "base"
+    },   
+    {
+      "title": "dashing"
+    },   
+    {
+      "title": "devpi"
+    },   
+    {
+      "title": "dnsmasq"
+    },   
+    {
+      "title": "docker-gen"
+    },   
+    {
+      "title": "docker-register"
+    },   
+    {
+      "title": "dockerize"
+    },   
+    {
+      "title": "dumb-init"
+    },   
+    {
+      "title": "elasticsearch"
+    },   
+    {
+      "title": "etcd"
+    },
+    {
+      "title": "glibc"
+    },   
+    {
+      "title": "go"
+    },   
+    {
+      "title": "handwarmer"
+    },   
+    {
+      "title": "jenkins"
+    },   
+    {
+      "title": "jupyter"
+    },   
+    {
+      "title": "kibana"
+    },   
+    {
+      "title": "maven"
+    },   
+    {
+      "title": "mesos"
+    },   
+    {
+      "title": "mongo"
+    },   
+    {
+      "title": "nginx"
+    },   
+    {
+      "title": "nodejs"
+    },   
+    {
+      "title": "nodejs2"
+    },
+    {
+      "title": "oracle-jre"
+    },   
+    {
+      "title": "php-fpm"
+    },   
+    {
+      "title": "phpadmin"
+    },   
+    {
+      "title": "python2"
+    },   
+    {
+      "title": "python3"
+    },   
+    {
+      "title": "redis"
+    },   
+    {
+      "title": "scipy"
+    },   
+    {
+      "title": "sniproxy"
+    },   
+    {
+      "title": "spark"
+    },   
+    {
+      "title": "uwsgi"
+    },   
+    {
+      "title": "varnish"
     }
   ]
 }

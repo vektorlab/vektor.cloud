@@ -1,11 +1,12 @@
 <article class="post">
     <!--<span class="post-meta">{{ .Date.Format "Jan 2, 2006" }}</span>-->
     <div class="cbox">
-      <h2><a href="{{ .Site.Params.URLBase }}/{{ .Params.imagename }}">{{ .Title }}</a></h2>
-      <a class="ghlink" href="{{ .Site.Params.GithubBase }}/{{ .Params.imagename }}">
-        <i class="fa fa-fw fa-github"></i>
-      </a>
-      <span class="desc">{{ .Content }}</span>
-      <textarea class="linkbox" disabled="true">{{ .Site.Params.RegistryBase }}/{{ .Params.imagename }}:latest</textarea>
+      <h2><a href="/image/{{ .Title }}">{{ .Title }}</a></h2>
+      </br>
+      <span class="desc">{{.Params.description}}</span>
+        <a class="ghlink" href="{{ .Site.Params.GithubBase }}/{{ .Params.name }}">
+          <i class="fa fa-fw fa-github"></i>
+        </a>
+      <textarea class="linkbox" disabled="true">{{ .Site.Params.GithubOrg }}/{{ .Title }}:latest</textarea>
     </div>
 </article>
