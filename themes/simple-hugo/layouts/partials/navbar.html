@@ -11,8 +11,8 @@
         </div>
         <div class="collapse navbar-collapse" id="navbar-right">
             <ul class="nav navbar-nav navbar-right">
-               <li><a href="/stack">stacks</a></li>
-               <li><a href="/image">images</a></li>
+              <!-- <li><a href="/stack">stacks</a></li>
+              <li><a href="/image">images</a></li> -->
                 {{ range .Site.Params.links }}
                     <li><a href="{{ .url }}" {{ with .targetBlank }} target="_blank" {{ end }}>{{ .title }}</a></li>
                 {{ end }}
