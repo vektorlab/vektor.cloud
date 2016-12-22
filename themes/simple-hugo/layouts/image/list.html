@@ -1,12 +1,13 @@
 <article class="post">
     <!--<span class="post-meta">{{ .Date.Format "Jan 2, 2006" }}</span>-->
-    <div class="cbox">
+    <div class="cbox image_item">
       <h2><a href="/image/{{ .Title }}">{{ .Title }}</a></h2>
-      </br>
+      <a href="/image/{{ .Title }}"><img class="img-responsive center-block" src="{{.Params.image}}"></a>
       <span class="desc">{{.Params.description}}</span>
-        <a class="ghlink" href="{{ .Site.Params.GithubBase }}/{{ .Params.name }}">
-          <i class="fa fa-fw fa-github"></i>
-        </a>
-      <textarea class="linkbox" disabled="true">{{ .Site.Params.GithubOrg }}/{{ .Title }}:latest</textarea>
+      </br>
+      <textarea class="linkbox">docker pull quay.io/{{ .Site.Params.GithubOrg }}/{{ .Title }}</textarea>
+      <a href="{{ .Site.Params.GithubBase }}/{{ .Title }}"><button type="button" class="btn btn-default btn-xs"><i class="fa fa-fw fa-github"></i></button></a>
+      <a href="https://circleci.com/gh/vektorcloud/{{ .Title }}"><button type="button" class="btn btn-default btn-xs"><i class="fa fa-server"></i></button></a>
+      <a href="https://quay.io/vektorcloud/{{ .Title }}?tab=tags"><button type="button" class="btn btn-default btn-xs"><i class="fa fa-file-image-o"></i></button></a>
     </div>
 </article>

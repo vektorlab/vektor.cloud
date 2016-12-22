@@ -10,10 +10,16 @@
   ],
   "images": [
     {
-      "title": "airflow"
+      "title": "airflow",
+      "image": "/img/airflow.png"
     },
     {
-      "title": "ansible"
+      "title": "ansible",
+      "image": "/img/ansible.png"
+    },
+    {
+      "title": "aurora",
+      "image": "/img/aurora.png"
     },
     {
       "title": "apk-cache"
@@ -31,7 +37,8 @@
       "title": "devpi"
     },   
     {
-      "title": "dnsmasq"
+      "title": "dnsmasq",
+      "image": "/img/dnsmasq.png"
     },   
     {
       "title": "docker-gen"
@@ -40,85 +47,137 @@
       "title": "docker-register"
     },   
     {
-      "title": "dockerize"
-    },   
-    {
       "title": "dumb-init"
     },   
     {
-      "title": "elasticsearch"
+      "title": "elasticsearch",
+      "image": "/img/elasticsearch.png"
     },   
     {
-      "title": "etcd"
+      "title": "etcd",
+      "image": "/img/etcd.png"
     },
     {
-      "title": "glibc"
+      "title": "glibc",
+      "image": "/img/glibc.png"
     },   
     {
-      "title": "go"
+      "title": "go",
+      "image": "/img/go.png"
     },   
     {
       "title": "handwarmer"
     },   
     {
-      "title": "jenkins"
+      "title": "jenkins",
+      "image": "/img/jenkins.png"
     },   
     {
-      "title": "jupyter"
+      "title": "jupyter",
+      "image": "/img/jupyter.png"
     },   
     {
-      "title": "kibana"
+      "title": "kafka",
+      "image": "/img/kafka.png"
     },   
     {
-      "title": "maven"
+      "title": "kibana",
+      "image": "/img/kibana.png"
     },   
     {
-      "title": "mesos"
+      "title": "marathon",
+      "image": "/img/marathon.png"
     },   
     {
-      "title": "mongo"
+      "title": "maven",
+      "image": "/img/maven.png"
     },   
     {
-      "title": "nginx"
+      "title": "mesos",
+      "image": "/img/mesos.png"
     },   
     {
-      "title": "nodejs"
-    },   
-    {
-      "title": "nodejs2"
+      "title": "mesos-dns",
+      "image": "/img/mesos.png"
     },
     {
-      "title": "oracle-jre"
+      "title": "mongo",
+      "image": "/img/mongo.png"
     },   
     {
-      "title": "php-fpm"
+      "title": "nginx",
+      "image": "/img/nginx.png"
     },   
     {
-      "title": "phpadmin"
+      "title": "nodejs",
+      "image": "/img/nodejs.png"
     },   
     {
-      "title": "python2"
+      "title": "nodejs2",
+      "image": "/img/nodejs.png"
+    },
+    {
+      "title": "openjdk",
+      "image": "/img/openjdk.png"
     },   
     {
-      "title": "python3"
+      "title": "oracle-jre",
+      "image": "/img/oracle-jre.png"
     },   
     {
-      "title": "redis"
+      "title": "php-fpm",
+      "image": "/img/phpfpm.png"
     },   
     {
-      "title": "scipy"
+      "title": "phpadmin",
+      "image": "/img/phpadmin.png"
+    },   
+    {
+      "title": "python2",
+      "image": "/img/python.png"
+    },   
+    {
+      "title": "python3",
+      "image": "/img/python.png"
+    },   
+    {
+      "title": "redis",
+      "image": "/img/redis.png"
+    },   
+    {
+      "title": "ruby",
+      "image": "/img/ruby.png"
+    },
+    {
+      "title": "scipy",
+      "image": "/img/scipy.png"
     },   
     {
       "title": "sniproxy"
     },   
     {
-      "title": "spark"
+      "title": "spark",
+      "image": "/img/spark.png"
     },   
     {
-      "title": "uwsgi"
+      "title": "traefik",
+      "image": "/img/traefik.png"
+    },
+    {
+      "title": "uwsgi",
+      "image": "/img/uwsgi.png"
     },   
     {
-      "title": "varnish"
+      "title": "varnish",
+      "image": "/img/varnish.png"
+    },
+    {
+      "title": "xfce4",
+      "image": "/img/xfce4.png"
+    },
+    {
+      "title": "zookeeper",
+      "image": "/img/zookeeper.png"
     }
   ]
 }

@@ -24,6 +24,7 @@ type Config struct {
 type Image struct {
 	Title       string `json:"title"`
 	Description string `json:"description"`
+	Image       string `json:"image",omitempty`
 }
 
 func (i *Image) Write(cfg *Config) error {
@@ -47,6 +48,9 @@ func (i *Image) Write(cfg *Config) error {
 	readme, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
 		return err
+	}
+	if i.Image == "" {
+		i.Image = "/img/logo_sm.png"
 	}
 	metadata, err := json.MarshalIndent(i, "", " ")
 	if err != nil {

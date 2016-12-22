@@ -197,3 +197,7 @@ a:hover {
 .copyright {
   padding-top: 200px;
 }
+
+.image_item img {
+  padding-bottom: 5px;
+}
