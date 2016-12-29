@@ -2,6 +2,7 @@ baseurl = "http://vektor.cloud"
 languageCode = "en-us"
 title = "vektor.cloud"
 theme = "simple-hugo"
+enableRobotsTXT = true
 
 [params]
   RegistryBase = "quay.io/vektorcloud"
