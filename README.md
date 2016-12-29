@@ -1,5 +1,6 @@
 # vektor.cloud
-Vektor.cloud site
+
+Hugo site for [vektor.cloud](http://vektor.cloud).
 
 ### Running Locally
 
