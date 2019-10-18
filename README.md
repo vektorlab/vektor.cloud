@@ -8,4 +8,4 @@ Vektor.cloud site
     go run main.go
     hugo server --watch
 
-[circleci]: https://img.shields.io/circleci/project/github/vektorcloud/www.svg "www"
+[circleci]: https://img.shields.io/circleci/build/gh/vektorcloud/www?color=1dd6c9&logo=CircleCI&logoColor=1dd6c9&style=for-the-badge "www"
