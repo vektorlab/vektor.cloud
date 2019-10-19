@@ -1,6 +1,6 @@
 # vektor.cloud
 
-![circleci][circleci]
+[![circleci][circleci]](https://circleci.com/gh/vektorcloud/www)
 Vektor.cloud site
 
 ### Running Locally
